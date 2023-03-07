@@ -4,5 +4,5 @@ kind: Kustomization
 namespace: plc
 resources:
   - namespace.yaml
-  - grafana.yaml
+  - plc.yaml
   - service.yaml
