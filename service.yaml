@@ -20,7 +20,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-    - host: "plc.cluster.local"
+    - host: "plc.in.cluster.local"
       http:
         paths:
           - path: /
